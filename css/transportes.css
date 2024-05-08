@@ -156,9 +156,9 @@ h2 {
     color: #2e64a1;
     margin: 0;
     font-weight: normal;
-    
+
 }
-    
+
 
 .persona h6 {
     font-style: italic;
@@ -166,8 +166,67 @@ h2 {
 
 }
 
-.persona p{
+.persona p {
     font-size: 12px;
 }
 
 /* fin nosotros */
+
+/* inicio contacto */
+
+.contacto {
+    display: flex;
+}
+
+.contacto div {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p label {
+    min-width: 100px;
+    background-color: yellow;
+}
+
+.formulario p input,
+.formulario p textarea {
+
+    width 100%;
+    background-color: #ccc;
+    border: 1px solid #f60404;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.formulario p textarea {
+    resize: none;
+    height: 150px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #6da9ed;
+    width: auto;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    cursor: pointer;
+    position: relative;
+    left: 100px;
+}
+
+
+
+
+/* fin contacto */
