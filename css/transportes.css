@@ -99,6 +99,8 @@ h2 {
 .testimonio {
     border-color: #ccc;
     padding: 12px;
+    background-color: #a3bbe9;
+
 }
 
 .testimonio .cita {
@@ -106,12 +108,12 @@ h2 {
     font-style: italic;
     font-size: 20px;
     display: block;
+    
 }
 
 .testimonio .autor {
     font-size: 12px;
-    display: block;
-    background-color: lightcoral;
+    display: block;    
     text-align: center;
     margin: 16px 0;
 }
