@@ -207,7 +207,7 @@ h2 {
 .formulario p input,
 .formulario p textarea {
 
-    width 100%;
+    width: 100%;
     background-color: #ccc;
     border: 1px solid #f60404;
     border-radius: 5px;
