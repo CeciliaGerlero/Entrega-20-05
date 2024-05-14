@@ -194,12 +194,12 @@ h2 {
 }
 
 /* .formulario p {
-    display: flex;
+    display: flex; hace q el label este sobre el imput
 } */
 
 .formulario p label {
     min-width: 100px;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
 }
@@ -222,9 +222,9 @@ h2 {
 }
 
 .formulario p:nth-child(4){
-    background-color: #f60404;
+    /* background-color: #f60404;*/
     align-items: start;
-}
+} 
 
 .formulario input[type="submit"] {
     background-color: #6da9ed;
@@ -233,8 +233,8 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: white;
     cursor: pointer;
-    position: relative;
-    left: 100px;
+    /* position: relative;
+    left: 100px; */
 }
 
 .formulario input [type="submit"]:hover {
