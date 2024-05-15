@@ -62,8 +62,11 @@ footer {
     margin: 20px;
 }
 
+
+
+
 .holder {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 
 
@@ -76,6 +79,12 @@ h2 {
 }
 
 /* inicio home */
+
+.homeimg img {
+    max-width: 100%;
+}
+
+
 .columnas {
     display: flex;
 }
@@ -108,12 +117,12 @@ h2 {
     font-style: italic;
     font-size: 20px;
     display: block;
-    
+
 }
 
 .testimonio .autor {
     font-size: 12px;
-    display: block;    
+    display: block;
     text-align: center;
     margin: 16px 0;
 }
@@ -221,10 +230,10 @@ h2 {
     height: 150px;
 }
 
-.formulario p:nth-child(4){
+.formulario p:nth-child(4) {
     /* background-color: #f60404;*/
     align-items: start;
-} 
+}
 
 .formulario input[type="submit"] {
     background-color: #6da9ed;
@@ -242,8 +251,68 @@ h2 {
 }
 
 
-
-
-
-
 /* fin contacto */
+
+/* inicio @media 550 */
+
+@media screen and (max-width: 550px) {
+
+    /* home */
+    .columnas {
+        flex-direction: column;
+    }
+
+    .bienvenidos,
+    .testimonios {
+        width: 100%
+    }
+
+    .holder {
+        padding: 0 16px;
+    }
+
+    .personas {
+
+        flex-wrap: wrap;
+        gap: 16px;
+
+    }
+
+    .persona {
+        width: 47%;
+    }
+
+
+    .contacto {
+        flex-direction: column;
+    }
+
+    .datos {
+        display: none;
+    }
+
+    header .holder {
+        /* background-color: #f60404; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 16px 0;
+    }
+
+    header h1 {
+        position: static;
+        margin-left: 10px;
+    }
+
+}
+
+/* fin @media 550 */
+
+@media screen and (max-width: 320px){
+nav ul.holder{
+    flex-direction: column;
+    padding: 0;
+}
+
+
+}
