@@ -14,6 +14,7 @@ header h1 {
     color: white;
     font-weight: 100;
     font-style: italic;
+    
     /* display: inline-flex; */
     display: inline-block;
     position: relative;
