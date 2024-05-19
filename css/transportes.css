@@ -251,9 +251,10 @@ inicio galeria
 
 
 .galeria img {
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 225;
-    display: block;
+    /* display: block; */
+    border-style:groove;
   
     
 }
@@ -289,7 +290,7 @@ inicio galeria
 }
 
 .formulario p input {
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .formulario p label {
@@ -377,9 +378,11 @@ inicio galeria
 
     .contacto {
         flex-direction: column;
+        padding: 0px;
     }
 
     .datos {
+        
         display: none;
     }
 
@@ -402,6 +405,8 @@ inicio galeria
         max-width: 80px;
     }
 
+    
+
 
 }
 
@@ -412,7 +417,7 @@ inicio galeria
 
     nav ul.holder {
         flex-direction: column;
-        padding: 0;
+        padding: 0px;
 
     }
 
