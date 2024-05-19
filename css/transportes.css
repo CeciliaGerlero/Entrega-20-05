@@ -61,6 +61,8 @@ footer {
     padding: 20px 0;
     text-align: center;
     margin: 20px;
+    font-size: 14px;
+    text-decoration:solid;
 }
 
 
@@ -103,7 +105,8 @@ h2 {
 }
 
 .bienvenidos p {
-    font-size: 20px;
+    font-size: 18px;
+    text-align: justify;
 }
 
 .testimonio {
@@ -227,10 +230,33 @@ h2 {
     /*separacion de las lineas*/
 }
 
-
-
 /* fin servicios */
 
+inicio galeria
+
+
+/* fin galeria */
+
+.galeria {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 16px 0;
+    display: flex;    
+    align-items: center;
+    gap: 30px;
+
+
+       
+}
+
+
+.galeria img {
+    border-radius: 20px;
+    max-width: 225;
+    display: block;
+  
+    
+}
 
 
 /* inicio contacto */
