@@ -168,8 +168,7 @@ h2 {
     color: #2e64a1;
     margin: 0;
     font-weight: normal;
-
-}
+    text-align:start}
 
 
 .persona h6 {
@@ -180,6 +179,7 @@ h2 {
 
 .persona p {
     font-size: 12px;
+    text-align:left;
 }
 
 /* fin nosotros */
@@ -231,24 +231,34 @@ h2 {
 
 .contacto {
     display: flex;
+    
 }
 
 .contacto div {
     width: 100%;
     gap: 25px;
+    padding: 20px;
+    
 }
 
 .datos p {
     font-size: 14px;
+    
 }
 
 .datos ul li {
     font-size: 13px;
+    
 }
 
-/* .formulario p {
-    display: flex; hace q el label este sobre el imput
-} */
+.formulario p {
+   
+    /* display: flex; hace q el label este sobre el imput */
+}
+
+.formulario p input{
+   background-color: yellow;
+}
 
 .formulario p label {
     min-width: 100px;
@@ -269,33 +279,38 @@ h2 {
     box-sizing: border-box;
 }
 
+
+
 .formulario p textarea {
     resize: none;
     height: 150px;
 }
 
 .formulario p:nth-child(4) {
-    /* background-color: #f60404;*/
+    
     align-items: start;
 }
 
 .formulario input[type="submit"] {
     background-color: #6da9ed;
-    width: auto;
+   
+    width: 80px;
     padding: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     color: white;
-    cursor: pointer;
-    /* position: relative;
-    left: 100px; */
-}
+    cursor: pointer;      
+    position: relative;
+    left: 400px;
 
 .formulario input [type="submit"]:hover {
-    background-color: #2ea150;
+    background-color: #0a6b4e;
 }
+
 
 
 /* fin contacto */
+
+
 
 /* inicio @media 550 */
 
